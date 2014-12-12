@@ -29,7 +29,7 @@
 
       selection.enter().append("circle").classed("orb").attr(function(d) {
         return {
-          radius: radius,
+          r: radius,
           cx: xScale(d[0]),
           cy: yScale(d[1])
         }
